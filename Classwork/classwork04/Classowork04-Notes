@@ -1,0 +1,54 @@
+CLASS NOTES 9-19
+To round decimals
+	system.out.printf("You gained %.2f pounds.\n", num);
+
+import java.text.DecimalFormat;
+DecimalFormat myFormat = new DecimalFormat("0.00");
+//Then later to print out number:
+system.out.println("Message " + myFormat.format(num));//Gets message w/ num to go to 2 decimal places
+
+Jagged Array: Arrays with different amounts of units in each element??
+A1
+A2B2C2
+A3B2
+A4
+
+Example declaration
+double[] myList = new double[10];
+Could also
+double[] myList;//Creates data type double an array *reference variable* called myList
+
+Java arrays can change size
+
+[] can go either way (before or after)
+	double myArray[]; OR double []myArray;
+
+***When array gets created, reference variable is created vs actual array which has not YET been created-- ASSIGNED later***
+myArray = new double[size]; (USUALLY WILL BE ONE STEP) double []myArray = new double[size];
+
+**SCANNER INPUT STATEMENTS**
+system.out.println("How many grades to store? ");
+double []grades = new double[input.nextInt()];
+*grades.length will give size* <- can create variable ie size = array.length
+
+java.util.Arrays.sort(grades);//BUBBLE SORTS ENTIRE ARRAY
+(java.util retrieves package; Arrays is class)
+ARRAY IS AN OBJECT/REFERENCE VARIABLE
+
+ARRAY LISTS will be covered in 2805 basically an easy dynamic array
+
+array SIZE is STATIC once declared
+
+JAVA DEFAULT INITILIZES:
+	Numeric primitive types: 0
+	Char data type: \u0000 (blank? null?)
+	Bool type: false
+
+Can declare and initialize in one step (ONLY at time of initialization)
+	Double []myArray = {1,2,3,4};
+	CANNOT!!!!!!!!!
+	double []myArray;
+	myArray = {1,2,3,4};
+
+Enhanced for loop:
+for(double value:myArray)//Loops for length of array
