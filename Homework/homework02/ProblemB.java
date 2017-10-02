@@ -1,7 +1,5 @@
 package homework02;
 
-import java.util.Scanner;
-
 import javax.swing.JOptionPane;
 
 public class ProblemB {
@@ -9,8 +7,6 @@ public class ProblemB {
 	public static void problemB() {
 		
 		String message, placeholder;
-		
-		Scanner in = new Scanner(System.in);
 		
 		message = "How many knives have you sold this month?";
 		placeholder = "Enter knives sold...";

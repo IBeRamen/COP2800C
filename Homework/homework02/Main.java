@@ -1,14 +1,10 @@
 package homework02;
 
-import java.util.Arrays;
-
 import javax.swing.JOptionPane;
 
 public class Main {
 	
 	public static void main(String[] args) {
-		
-		String inputLine, message, prompt;
 
 		char choice;
 
@@ -26,12 +22,10 @@ public class Main {
 					ProblemC.problemC();
 					break;
 				case 'Q':
-					message = "Later!";
-					JOptionPane.showMessageDialog(null, message);
+					JOptionPane.showMessageDialog(null, "Later!");
 					break;
 				default:
-					message = "Invalid selection... try again.";
-					JOptionPane.showMessageDialog(null, message);
+					JOptionPane.showMessageDialog(null, "Invalid selection... try again.");
 					break;
 			}
 		} while (choice != 'Q');
