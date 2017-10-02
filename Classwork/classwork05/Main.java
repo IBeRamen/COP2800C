@@ -21,7 +21,7 @@ public class Main {
 		inputLine = in.nextLine();
 		**/
 
-		/**
+		/**||
 		 * Dialog to enter your name and pops up with your name.
 		 */
 
