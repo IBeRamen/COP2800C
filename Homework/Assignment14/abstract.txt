@@ -1,0 +1,3 @@
+https://www.javatpoint.com/abstract-class-in-java
+http://www.javacoffeebreak.com/faq/faq0084.html
+https://www.tutorialspoint.com/java/java_abstraction.htm
